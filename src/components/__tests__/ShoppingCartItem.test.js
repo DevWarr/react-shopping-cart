@@ -2,7 +2,7 @@ import React from "react";
 import Item from "../ShoppingCartItem"
 import { render, fireEvent } from "@testing-library/react";
 
-test("<Product/> loads properly when passed props", () => {
+test("<Item/> loads properly when passed props", () => {
     const product = {title: "John's", price: "12.99"}
     const cons = () => console.log("click")
     const shoppingItem = render(<Item {...product} removeItem={cons}/>)
