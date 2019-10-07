@@ -1,5 +1,6 @@
 import { useState } from "react";
 
+// STRETCH: useLocalStorage
 export default function useLocalStorage(key, initialValue) {
 
     const [value, setValue] = useState(() => {

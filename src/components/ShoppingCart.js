@@ -6,6 +6,7 @@ import { CartContext } from '../context';
 
 const ShoppingCart = () => {
 
+	// STRETCH: removeItem
 	const { cart, removeItem } = useContext(CartContext)
 
 	const getCartTotal = () => {
